@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class firstPage {
 	@Test
 	public void getDetailsOfIphone() throws InterruptedException, IOException {
-		System.setProperty("webdriver.chrome.driver","E:\\JAVA VELOCITY 2020\\CromeDriver File\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:\\JAVA VELOCITY 2020\\CromeDriver File\\chdriver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
